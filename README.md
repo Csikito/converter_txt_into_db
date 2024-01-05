@@ -1,17 +1,6 @@
 # 🖹 .txt file conversion in the database 🖹
 
-1. **Convert to CSV:**
-
-   - Select specific text files from the 'data' folder to convert.
-   - The application reads the selected text files and extracts relevant information from them.
-   - It generates corresponding CSV files with the extracted data in the 'csv' folder.
-   - The CSV files are formatted for easy integration with other applications and databases.
-
-2. **Upload to SQL:**
-   - After converting the text files to CSV, the application enables the user to upload the generated CSV files to a MySQL database.
-   - The user is prompted to select the specific CSV files for upload.
-   - The application creates or updates MySQL tables based on the selected CSV files.
-   - Data from the CSV files is then inserted into the corresponding MySQL tables, making it accessible for various database operations.
+The tasks are divided into two steps. Firstly, the software extracts relevant information from text files selected from the 'data' folder and converts them into CSV files, saving them in the 'csv' folder. Subsequently, the program allows the user to upload the generated CSV files to a MySQL database. The user selects specific CSV files for upload, and the software creates or updates MySQL tables based on the chosen CSV files. Data from the CSV files is then inserted into the corresponding MySQL tables, making it accessible for various database operations. Finally, it deletes the csv folder.
 
 ## Requirements
 
@@ -55,3 +44,13 @@
 - The first column displays checkboxes for table selection, and the second column shows the file names.
 
 - The CSV files are imported into the database after conversion.
+
+## Used data
+
+The data used was taken from the following youtube channel:
+
+▶️ https://www.youtube.com/@365angol ▶️
+
+## GIF of how the software works
+
+![softwer](https://github.com/Csikito/converter_txt_into_db/assets/84712542/912b29f3-05e4-4e31-9c9f-8dd4b9ad6547)
